@@ -104,7 +104,7 @@ nav {
 
    /* ABOUT HERO */
 .about-hero {
-    /* min-height: 520px; */
+    min-height: 520px;
     height: 520px;
     padding: 100px 7% 60px;
     display: flex;
@@ -124,7 +124,7 @@ nav {
     width: 420px;
     height: 420px;
     background: #6d28d9;
-    opacity: 0.14;
+    opacity: 0.15;
     filter: blur(120px);
     right: 25%;
     top: 30px;
@@ -212,17 +212,11 @@ nav {
 
 .about-hero-image img {
     width: 100%;
-
     max-width: 650px;
-
     display: block;
-
     position: relative;
-
     z-index: 2;
-
     border-radius: 20px;
-
     border: 1px solid rgba(139, 92, 246, 0.8 );
     box-shadow:  0 0 35px rgba( 124, 58,  237, 0.25 );
 }
@@ -640,6 +634,31 @@ nav {
         font-size: 0.9rem;
     }
 
+
+    .about-hero-image {
+        width: 100%;
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 5;
+    }
+
+    .about-hero-image img {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        display: block;
+        position: relative;
+        z-index: 5;
+        object-fit: contain;
+    }
+
+
+
+
+
     .about-hero {
         padding: 105px 6% 60px;
         margin-top: 2.5rem;
@@ -829,6 +848,45 @@ nav {
         height: auto;
         margin: 1rem auto 0;
         display: block;
+    }
+
+
+    
+
+    .about-hero {
+        height: auto;
+        min-height: auto;
+        padding: 100px 6% 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        overflow: visible;
+    }
+
+    .about-hero-text {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .about-hero-image {
+        width: 100%;
+        max-width: 380px;
+        position: relative;
+        z-index: 5;
+        display: block;
+    }
+
+    .about-hero-image img {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        display: block;
+        position: relative;
+        z-index: 5;
+        object-fit: contain;
     }
 
 
