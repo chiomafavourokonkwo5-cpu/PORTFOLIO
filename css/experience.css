@@ -313,7 +313,7 @@ nav {
 /* Landing heading */
 
 .experience-intro h2 {
-    color: #ffffff;
+    color: white;
 
     font-size: 39px;
 
@@ -580,7 +580,7 @@ nav {
     nav {
         width: 100%;
         height: auto;
-        min-height: 115px;
+        /* min-height: 115px; */
         padding: 0.8rem 1rem;
         position: fixed;
         top: 0;
@@ -622,11 +622,13 @@ nav {
         justify-content: center;
         align-items: center;
         gap: 0.7rem;
+        display: none;
     }
 
     .nav-icons a {
         padding: 0.45rem 0.5rem;
         font-size: 0.9rem;
+        display: none;
     }
 
 
@@ -720,5 +722,122 @@ nav {
     .experience-label {
         margin-left: 70px;
     }
+
+      /* FOOTER */
+
+    .footer {
+        width: 100%;
+        height: auto;
+        min-height: 700px;
+
+        margin-top: 0;
+        padding: 3rem 1.5rem;
+
+        display: block;
+        overflow: hidden;
+    }
+
+    .footer-content {
+        width: 100%;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        gap: 2rem;
+    }
+
+    .footer-title {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .my-1 {
+        margin-right: 0;
+        letter-spacing: 0.3rem;
+    }
+
+    .symbol {
+        padding-left: 0;
+    }
+
+    .footer-content p {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .footer-button {
+        width: 200px;
+        height: 45px;
+        margin: 0 auto;
+        padding: 0.7rem;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin: 1rem 0 0;
+        text-align: center;
+    }
+
+    .footer-links h3 span {
+        padding-right: 0;
+    }
+
+    .Quick-links {
+        margin: 0 0 1rem;
+    }
+
+    .footer-links ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-links li {
+        margin-bottom: 15px;
+    }
+
+    .footer-links ul li a {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+
+    .footer-icons {
+        width: 100%;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .footer-icons a {
+        margin-top: 0;
+        padding-left: 0;
+        font-size: 1.3rem;
+    }
+
+    .footer-img {
+        width: 80%;
+        max-width: 250px;
+        height: auto;
+        margin: 1rem auto 0;
+        display: block;
+    }
+
+
 
 }
