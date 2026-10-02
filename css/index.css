@@ -13,6 +13,7 @@ body {
     height: 100vh;
     background-color: #050B1F;
     color: white;
+    overflow-x: hidden;
 }
 
 /* NAV BAR */
@@ -189,8 +190,10 @@ nav {
 
 .btn-1 {
     padding: 0.75rem 1.75rem;
-    color: #a855f7;
-    background-color: transparent;
+    /* color: #a855f7; */
+    /* background-color: transparent; */
+    color: white;
+    background:  #a855f7;
     border-radius: 1.5rem;
     font-weight: bold;
     cursor: pointer;
@@ -669,7 +672,7 @@ nav {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
  
      /* NAVBAR */

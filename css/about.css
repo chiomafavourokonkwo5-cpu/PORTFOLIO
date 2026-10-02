@@ -9,6 +9,7 @@ body {
     height: 100vh;
     background-color: #050B1F;
     color: white;
+    overflow-x: hidden;
     /* padding-top: 100px; */
 }
 

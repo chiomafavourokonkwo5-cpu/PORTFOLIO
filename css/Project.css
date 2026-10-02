@@ -9,6 +9,7 @@ body {
     height: 100vh;
     background-color: #050B1F;
     color: white;
+    overflow-x: hidden;
 }
 
 /* NAV BAR */
@@ -67,18 +68,18 @@ nav {
 }
 
 /* Nav icons  */
-.nav-icons{
+.nav-icons {
     display: flex;
     gap: 2rem;
 }
 
-.nav-icons a{
+.nav-icons a {
     border-radius: 50%;
     padding: 1rem .85rem;
     background-color: rgba(15, 23, 42, 0.7);
     text-decoration: none;
     color: white;
-    font-size:1.3rem;
+    font-size: 1.3rem;
 }
 
 .nav-link a {
@@ -88,6 +89,7 @@ nav {
     padding-bottom: 5px;
 
 }
+
 .nav-link a.active::after,
 .nav-link a:hover::after {
     content: '';
@@ -98,13 +100,14 @@ nav {
     bottom: 0;
     background: linear-gradient(90deg, #a855f7, #3b82f6);
 }
+
 /* END OF NAVBAR*/
 
-   /* PROJECT HERO */
+/* PROJECT HERO */
 
 .project-hero {
-    min-height: 520px;
-    padding: 120px 8% 70px;
+    height: 520px;
+    padding: 7.5rem 8% 4.375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,7 +160,7 @@ nav {
     font-size: 64px;
     line-height: 1.1;
     margin-bottom: 22px;
-    color: #ffffff;
+    color: white;
 }
 
 
@@ -247,7 +250,7 @@ nav {
     z-index: 2;
 }
 
-   /* PROJECT LANDING SECTION */
+/* PROJECT LANDING SECTION */
 
 
 .projects-section {
@@ -266,7 +269,7 @@ nav {
 
 .projects-heading h2 {
     font-size: 42px;
-    color: #ffffff;
+    color: white;
     margin: 10px 0 15px;
 }
 
@@ -286,7 +289,7 @@ nav {
 
 
 
-   /* PROJECT GRID */
+/* PROJECT GRID */
 
 .projects-grid {
     display: grid;
@@ -345,7 +348,7 @@ nav {
 
 
 .project-info h3 {
-    color: #ffffff;
+    color: white;
     font-size: 21px;
     margin-bottom: 10px;
 }
@@ -394,7 +397,7 @@ nav {
 
 
 
-   /* CTA */
+/* CTA */
 
 .project-cta {
     text-align: center;
@@ -448,14 +451,14 @@ nav {
 
 .footer-content h2 span {
     margin-top: 7rem;
-     background: linear-gradient(90deg, #a78bfa, #38bdf8);
+    background: linear-gradient(90deg, #a78bfa, #38bdf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
 
-.h2 symbol .my-1{
-     background: linear-gradient(90deg, #a78bfa, #38bdf8);
+.h2 symbol .my-1 {
+    background: linear-gradient(90deg, #a78bfa, #38bdf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -588,13 +591,13 @@ nav {
 
 @media (max-width: 768px) {
 
-    
-       /* NAVBAR */
+
+    /* NAVBAR */
 
     nav {
         width: 100%;
         height: auto;
-        min-height: 115px;
+        /* min-height: 115px; */
         padding: 0.8rem 1rem;
         position: fixed;
         top: 0;
@@ -609,7 +612,7 @@ nav {
         z-index: 100;
     }
 
-     
+
     .nav-logo {
         font-size: 16px;
         margin: 0;
@@ -809,7 +812,7 @@ nav {
         padding: 0;
     }
 
-    .icons{
+    .icons {
         display: flex;
         justify-content: center;
         align-items: center;
