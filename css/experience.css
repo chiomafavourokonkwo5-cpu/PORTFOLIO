@@ -542,9 +542,10 @@ nav {
     /* Hero */
 
     .experience-hero {
+        height: auto;
         padding: 110px 6% 60px;
-        margin-top: 3rem;
-
+        margin-top: 0;
+         overflow: visible;
         flex-direction: column;
 
         align-items: flex-start;
@@ -571,6 +572,13 @@ nav {
     .experience-hero-image {
         width: 100%;
     }
+
+    .experience-hero-image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+}
 
 
     /* Landing */

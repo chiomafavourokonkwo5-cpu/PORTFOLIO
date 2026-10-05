@@ -165,6 +165,7 @@ nav {
     font-size: 1rem;
     line-height: 1.5;
     max-width: 40rem;
+    align-items: center;
 
 }
 
@@ -173,6 +174,8 @@ nav {
     font-size: 1.2rem;
     line-height: 1.5;
     max-width: 40rem;
+    align-items: center;
+    margin-left: 2.7rem;
 
 }
 
